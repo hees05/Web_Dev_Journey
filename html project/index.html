@@ -1,17 +1,44 @@
 <!DOCTYPE html>
     <head>
         <meta charset = "UTF-8">
+        <!--The data below is for the search engine, containing the description of my website it's very very important to be exposed by the search engine.-->
         <meta name = "description" content = "This is web dev">
+        <meta name = "author" content = "Heeseung">
+        <meta name = "keywords" content = "HTML, Tutorial">
+        <!--Make sure this is defined so that the user fits the website in their own device.-->
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
         <title> Heeseung's Website</title>
     </head>
     <body>
-        <!--Difference between block and inline elements are that they can either be in the same horizontal line (in line) or not (block)-->
-        <!--These are inline elements-->
-        <a href = "#">link1</a>
-        <a href = "$">link2</a>
+        <span>span1</span>
+        <span>span2</span>
+        <hr>
+        <div>div1</div>
+        <div>div2</div>
+        <!--form will contain all the inputs under its tag.-->
+        <form>
+            <input type = "text" value = "Enter your username"/>
+            <br>
+            <input type = "password"/>
+            <br>
+            <textarea rows = "10" cols = "30">
+                Enter a paragraph
+            </textarea>
+            <br> 
+            <input type ="date" />
+            <br>
+            <input type = "file"/>
+            <ol type="1">
+                <li>
+                    What is your favorite animal?
+                    <input type="radio" name="animal" value="fridge"> Fridge
+                    <input type="radio" name="animal" value="whale"> Whale
+                    <input type="radio" name="animal" value="crocodile"> Crocodile
+                </li>
+            </ol>
 
-        <!--These are block elements-->
-        <p>Paragraph1</p>
-        <p>Paragraph2</p>
+            <br>
+            <input type = "submit"/>
+        </form>
     </body>
 </html>
