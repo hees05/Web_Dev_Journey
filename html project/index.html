@@ -5,24 +5,28 @@
         <title> Heeseung's Website</title>
     </head>
     <body>
-        <ul> 
-            <li><a href = "#">Apples</a></li>
-            <li>Oranges</li>
-            <li>Bananas</li>
-        </ul>
-        <!-- can set the type of the ordered list by saying type = "something e.g., (a, A, 1)"-->
-        <ol type = "A"> 
-            <li></li>
-            <li></li>
-            <li></li>
-        </ol>
-
-        <dl>
-            <dt>Apples</dt>
-            <dd>They are red</dd>
-
-            <dt>Oranges</dt>
-            <dd>They are orange</dd>
-        </dl>
+        <table>
+            <thead>
+                <caption><h2>List of Numbers</h2></caption> <!--This is the caption of the table-->
+                <tr><!--creating a table row that contains the table header (th) which represents the subvalues-->
+                    <th>num1</th>
+                    <th>num2</th>
+                    <th>num3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> <!--tr is creating the row for the table-->
+                    <td colspan = "3">one</td> <!--td is creating the table columns for given row.-->
+                    <!--colspan shows how much space a value is going to take up in a row.-->
+                    <td>two</td>
+                    <td>three</td>
+                </tr>
+                <tr>
+                    <td>four</td>
+                    <td>five</td>
+                    <td>six</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
