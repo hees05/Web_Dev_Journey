@@ -1,5 +1,5 @@
 body{
-	background:url(https://t3.ftcdn.net/jpg/07/97/45/74/360_F_797457455_wSjMx13AT54f0Yl6MDF6BsJAnyxayexq.jpg);
+	background :lightblue;
 }
 
 #title{
@@ -8,4 +8,13 @@ body{
 
 .subtitle{
 	color: rgb(219, 168, 50);
+}
+
+#service-image{
+	height:400px;
+	width:70%;
+
+	background:url(https://t3.ftcdn.net/jpg/07/97/45/74/360_F_797457455_wSjMx13AT54f0Yl6MDF6BsJAnyxayexq.jpg);
+	background-size: cover;
+	background-color:steelblue;
 }
