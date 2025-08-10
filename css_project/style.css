@@ -1,9 +1,13 @@
 body{
 	background :lightblue;
+	font-size :1em;
+	text-transform:capitalize;
+	text-align:justify;
 }
 
 #title{
-	color: rgb(186, 133, 255);
+	color: rgba(186, 133, 255, 0.4);
+	font-weight: 800;
 }
 
 .subtitle{
@@ -14,7 +18,13 @@ body{
 	height:400px;
 	width:70%;
 
-	background:url(https://t3.ftcdn.net/jpg/07/97/45/74/360_F_797457455_wSjMx13AT54f0Yl6MDF6BsJAnyxayexq.jpg);
-	background-size: cover;
-	background-color:steelblue;
+	background: radial-gradient(circle, red 20%, blue 40%, green 40%); 
+}
+
+.link{
+	text-decoration: overline;
+}
+
+.italics{
+	font-style : italic;
 }
