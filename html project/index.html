@@ -1,44 +1,65 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset = "UTF-8">
-        <!--The data below is for the search engine, containing the description of my website it's very very important to be exposed by the search engine.-->
-        <meta name = "description" content = "This is web dev">
-        <meta name = "author" content = "Heeseung">
-        <meta name = "keywords" content = "HTML, Tutorial">
-        <!--Make sure this is defined so that the user fits the website in their own device.-->
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
-        <title> Heeseung's Website</title>
-    </head>
-    <body>
-        <span>span1</span>
-        <span>span2</span>
-        <hr>
-        <div>div1</div>
-        <div>div2</div>
-        <!--form will contain all the inputs under its tag.-->
-        <form>
-            <input type = "text" value = "Enter your username"/>
-            <br>
-            <input type = "password"/>
-            <br>
-            <textarea rows = "10" cols = "30">
-                Enter a paragraph
-            </textarea>
-            <br> 
-            <input type ="date" />
-            <br>
-            <input type = "file"/>
-            <ol type="1">
-                <li>
-                    What is your favorite animal?
-                    <input type="radio" name="animal" value="fridge"> Fridge
-                    <input type="radio" name="animal" value="whale"> Whale
-                    <input type="radio" name="animal" value="crocodile"> Crocodile
-                </li>
-            </ol>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../css_project/style.css">
+</head>
+<body>
+    <h1 id= "title">My Website</h1>
+    <!-- Hero Image -->
+    <h2 class = "subtitle article-subtitle">About Me</h2>
+    <img src="../img/landscape.jpg" alt="Landscape" style="width:100%; height:auto;">
 
-            <br>
-            <input type = "submit"/>
-        </form>
-    </body>
+    <!-- Paragraph -->
+    <p class = "para-text">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <a href = "https://www.google.com" id = "google-link">Click here to go to Google</a>
+    <!-- Unordered List -->
+    <ul>
+        <li>Excepteur sint occaecat</li>
+        <ol>
+            <li class = "list-item"> MY numbered list Item
+            </li>
+        </ol>
+        <li>non proident sunt proident</li>
+        <li>sunt in culpa</li>
+    </ul>
+
+    <!-- Services Heading -->
+    <h2>Services</h2>
+
+    <!-- Table -->
+    <table border="1">
+        <tr>
+            <th>Lorem</th>
+            <th>Ipsum</th>
+            <th>Dolor</th>
+        </tr>
+        <tr>
+            <td>Sit</td>
+            <td>Amet</td>
+            <td>Consectetur</td>
+        </tr>
+        <tr>
+            <td>Adipiscing</td>
+            <td>Elit</td>
+            <td>Sed</td>
+        </tr>
+    </table>
+
+    <!-- Image -->
+    <img src="../img/landscape2.jpg" alt="Beach" style="width:300px; height:auto;">
+    <h2 id = "contact-us">Contact us</h2>
+    <form>
+        <input type = "text" placeholder="Full Name">
+        <input type = "email" placeholder = "Email">
+        <textarea></textarea>
+        <button>Submit</button>
+    </form>
+</body>
 </html>

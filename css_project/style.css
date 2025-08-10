@@ -1,0 +1,51 @@
+h2:hover {
+	color:red;
+}
+
+.title {
+	color: red;
+}
+
+.subtitle{
+	color:lightskyblue;
+}
+
+#contact-us {
+	color:green;
+}
+
+li:first-child {
+	color:lightsteelblue;
+}
+
+li:last-child {
+	color: lightskyblue;
+}
+
+/*#google-link:link {
+	color:blue;
+}
+
+#google-link:visited:hover{
+	color:hotpink;
+}*/
+
+h2 + a {
+	color:red;
+}
+
+textarea ~ button {
+	color:purple;
+}
+
+ul > li{
+	color:blue;
+}
+
+img[src ^= "../img/"] {
+	border: 10px solid black;
+}
+
+h2[class~=article-subtitle]{
+	background :green;
+}
